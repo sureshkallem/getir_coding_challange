@@ -2,6 +2,11 @@ const { DBClient } = require('../lib/dbClient');
 const { groupBy } = require('../lib/helper');
 const { DB_CONNECTION_STRING, DB_NAME, COLLECTION_NAME } = require('../lib/constants');
 
+/**
+ * Returns the list of records for given input
+ * @param {object} data 
+ * @returns {object} output
+ */
 exports.getRecords = async (data) => {
 
     const output = {
