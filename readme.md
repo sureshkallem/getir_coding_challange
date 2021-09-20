@@ -52,13 +52,16 @@ npm run start
 Sample JSON Response
 -------
 #. Input 
+```
 {
   "startDate": "2016-01-26",
   "endDate": "2018-02-02",
   "minCount": 2700,
   "maxCount": 3000
 }
+```
 #. Output
+```
 {
   "code": 0,
   "msg": "Success",
@@ -300,3 +303,4 @@ Sample JSON Response
     }
   ]
 }
+```
