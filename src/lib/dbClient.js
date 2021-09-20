@@ -1,5 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
 
+/**
+ * DBclient will connect to database with given input as a connection string
+ */
 class DBClient {
     constructor() {
         this._client = null;
